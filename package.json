@@ -1,0 +1,52 @@
+{
+  "name": "enzyme-example-jest",
+  "version": "0.1.0",
+  "description": "Example project with React + Enzyme + Jest",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/enzyme-example-jest.git"
+  },
+  "author": "Leland Richardson <leland.richardson@airbnb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/enzyme-example-jest/issues"
+  },
+  "homepage": "https://github.com/lelandrichardson/enzyme-example-jest#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-jest": "^6.0.1",
+    "babel-preset-airbnb": "^1.0.1",
+    "enzyme": "^2.0.0-rc1",
+    "jest": "^0.1.40",
+    "jest-cli": "^0.8.2",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "react",
+      "react-dom",
+      "react-addons-test-utils",
+      "fbjs",
+      "enzyme",
+      "cheerio",
+      "htmlparser2",
+      "underscore",
+      "lodash",
+      "domhandler",
+      "object.assign",
+      "define-properties",
+      "function-bind",
+      "object-keys"
+    ]
+  }
+}
