@@ -3,7 +3,7 @@ import { shallow, mount, render } from 'enzyme';
 
 jest.dontMock('../Foo');
 
-const Foo = require('../Foo');
+import Foo from '../Foo';
 
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
