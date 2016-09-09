@@ -1,3 +1,5 @@
 {
-  "presets": ["airbnb"]
+  "presets": [
+    "react", "es2015"
+  ]
 }

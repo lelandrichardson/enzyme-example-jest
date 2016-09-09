@@ -1,0 +1,12 @@
+{
+  "testRegex": ".*\\.test\\.js$",
+  "modulePaths": [
+    "<rootDir>"
+  ],
+  "moduleNameMapper": {
+    "^[./a-zA-Z0-9$_-]+\\.(jpg|png|gif|eot|svg|ttf|woff|woff2|mp4|webm)$": "build/jest/FileStub.js",
+    "^[./a-zA-Z0-9$_-]+\\.css$": "build/jest/CSSStub.js"
+  },
+  "verbose": true,
+  "rootDir": "../.."
+}
